@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d513226.chunk.css",
-    "main.js": "/static/js/main.74d3b042.chunk.js",
-    "main.js.map": "/static/js/main.74d3b042.chunk.js.map",
+    "main.css": "/static/css/main.c394f9a8.chunk.css",
+    "main.js": "/static/js/main.d165ab1d.chunk.js",
+    "main.js.map": "/static/js/main.d165ab1d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.107bb8ca.js",
     "runtime-main.js.map": "/static/js/runtime-main.107bb8ca.js.map",
-    "static/js/2.938d6267.chunk.js": "/static/js/2.938d6267.chunk.js",
-    "static/js/2.938d6267.chunk.js.map": "/static/js/2.938d6267.chunk.js.map",
+    "static/js/2.ef1f3914.chunk.js": "/static/js/2.ef1f3914.chunk.js",
+    "static/js/2.ef1f3914.chunk.js.map": "/static/js/2.ef1f3914.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3679f43285220fcb9021e02108925484.js": "/precache-manifest.3679f43285220fcb9021e02108925484.js",
+    "precache-manifest.ba638741f53391ba99979a4e32fd122b.js": "/precache-manifest.ba638741f53391ba99979a4e32fd122b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.4d513226.chunk.css.map": "/static/css/main.4d513226.chunk.css.map",
-    "static/js/2.938d6267.chunk.js.LICENSE": "/static/js/2.938d6267.chunk.js.LICENSE",
+    "static/css/main.c394f9a8.chunk.css.map": "/static/css/main.c394f9a8.chunk.css.map",
+    "static/js/2.ef1f3914.chunk.js.LICENSE": "/static/js/2.ef1f3914.chunk.js.LICENSE",
     "static/media/AlexDales_Resume.pdf": "/static/media/AlexDales_Resume.109365bc.pdf",
     "static/media/ar.png": "/static/media/ar.b1733819.png",
     "static/media/as.png": "/static/media/as.0b637716.png",
@@ -25,6 +25,7 @@
     "static/media/dribbble.svg": "/static/media/dribbble.e2798590.svg",
     "static/media/flower.png": "/static/media/flower.d7cd64f6.png",
     "static/media/instagram.svg": "/static/media/instagram.1f2c47db.svg",
+    "static/media/instagramFeed.png": "/static/media/instagramFeed.a174c113.png",
     "static/media/interactivehome.png": "/static/media/interactivehome.021295e4.png",
     "static/media/jf.png": "/static/media/jf.64f0dcdd.png",
     "static/media/linkedin.svg": "/static/media/linkedin.3e2cd069.svg",
@@ -38,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.107bb8ca.js",
-    "static/js/2.938d6267.chunk.js",
-    "static/css/main.4d513226.chunk.css",
-    "static/js/main.74d3b042.chunk.js"
+    "static/js/2.ef1f3914.chunk.js",
+    "static/css/main.c394f9a8.chunk.css",
+    "static/js/main.d165ab1d.chunk.js"
   ]
 }
