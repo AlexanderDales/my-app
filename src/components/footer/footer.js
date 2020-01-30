@@ -13,10 +13,10 @@ class Footer extends Component {
         <div className="container footer">
 
           <div className="row justify-content-center">
-            <img src={linkedinLogo} id="socialIcon" />
-            <img src={dribbbleLogo} id="socialIcon" />
-            <img src={instagramLogo} id="socialIcon" />
-            <img src={twitterLogo} id="socialIcon" />
+            <a href="https://www.linkedin.com/in/alexdales/" target="_blank"><img src={linkedinLogo} id="socialIcon" /> </a>
+            <a href="https://dribbble.com/AlexDales" target="_blank"><img src={dribbbleLogo} id="socialIcon" /></a>
+            <a href="https://www.instagram.com/whateverdales/" target="_blank"><img src={instagramLogo} id="socialIcon" /></a>
+            <a href="https://twitter.com/byalexdales" target="_blank"><img src={twitterLogo} id="socialIcon" /></a>
           </div>
 
           <div className="row justify-content-center" id="footerText">&copy; Alex Dales 2020 </div>

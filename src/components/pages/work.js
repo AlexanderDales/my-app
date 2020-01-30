@@ -30,10 +30,8 @@ class Work extends Component {
             I'm Alex -
             </div>
               <div className="row">
-              I'm a product designer & systems design engineering student in my 2A term at the Univeristy of Waterloo. Formely, I was a product designer working in Toronto at Sprout on the mobile team.
-              Prior to that, I was a UI/UX designer working at the Royal Bank of Canada at the RBC Waterpark builiding downtown Toronto. I am also a freelance designer, having worked with over 100 global clients to deliver brand solutions for
-              different startups, clothing brands, personal brands and the list goes on.
-              </div>
+              I'm a systems design engineering student in my 2A term at the University of Waterloo. Formely, I was a product designer at Sprout on the mobile team. Prior to that, I was a UI/UX designer at
+              the Royal Bank of Canada.
           </div>
 
         </div>
@@ -85,6 +83,9 @@ class Work extends Component {
 
       </div>
     </div>
+
+    </div>
+
   );
   }
 }
