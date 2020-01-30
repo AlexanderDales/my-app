@@ -1,0 +1,35 @@
+.col-sm {
+  padding:  20px;
+}
+
+.logos {
+  padding: 0px;
+}
+
+.dribbbleText {
+  margin-top: 8%;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  display: inline-block;
+
+}
+
+.dribbble {
+  border-style: solid;
+  border-color: white;
+  border-width: 12px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
+}
+
+.dribbbleTextBox {
+  text-align: center;
+}
+
+#onlyDribbble {
+  color: #30D27C;
+}
+
+.freelanceText {
+  
+}

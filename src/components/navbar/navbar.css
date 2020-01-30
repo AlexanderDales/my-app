@@ -1,0 +1,27 @@
+
+.navbar-brand {
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.padded {
+  padding: 0px;
+  margin-top: 10%;
+  margin-bottom: 1%;
+}
+
+.nav-item {
+  padding-right: 0%;
+  margin-left: 8%;
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#navLogo {
+  width: 60px;
+  margin-right: 2.5%;
+}

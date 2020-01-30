@@ -1,0 +1,72 @@
+.title {
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 8%;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#topDescTitle {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+}
+
+#topDescription {
+  margin-top: 3%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 12%;
+}
+
+#topDescText {
+  border-bottom: solid 2px #30D27C;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.img-fluid {
+  margin: 0px;
+}
+
+#tagline {
+  margin-top: 6%;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #30D27C;
+
+}
+
+.list-inline-item {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: grey;
+}
+
+#secondNavTitle {
+  margin-right: 30px;
+}
+
+#secondNavTitle:hover {
+  cursor: pointer;
+}
+
+.nav-title-selected {
+  color: black;
+}
+
+.secondNav {
+  margin-bottom: 4%;
+}
+div.container.secondNav {
+  padding-left: 0px;
+}

@@ -1,0 +1,21 @@
+#footer {
+  background-color: #FBFBFB;
+}
+
+#socialIcon {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30px;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 15%;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+
+#footerText {
+  margin-top: 2%;
+  font-size: 13px;
+}
