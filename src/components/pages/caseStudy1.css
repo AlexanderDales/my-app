@@ -1,0 +1,91 @@
+.wrap {
+  margin-top: 10%;
+}
+
+.titleSection {
+  border-bottom: solid 2px #30D27C;
+  margin-left: 0;
+}
+
+#title {
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+#subTitle {
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 5%;
+}
+
+.topDescText {
+  border-bottom: solid 2px #30D27C;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+div.container.content {
+  padding-left: 0px;
+}
+
+#desc {
+  color: #1D1D1C;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 3%;
+}
+
+#text {
+  padding-top: 2%;
+  color: #1D1D1C;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#role {
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 10%;
+}
+
+#roleHighlight {
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  border-color: #30D27C;
+  background-color: #30D27C;
+  margin-top: 2%;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-success:active:focus, .btn-primary:active:focus .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3FEA8F;
+    border-color: #3FEA8F; /*set the color you want here*/
+}
+
+.highlight {
+  margin-top: 4%;
+  background-color: #F2F2F2;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.highlightContent {
+  padding-left: 0px;
+}

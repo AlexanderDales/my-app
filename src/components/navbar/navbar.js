@@ -3,6 +3,7 @@ import './navbar.css';
 import personalLogo from '../images/personalLogo.svg';
 import PDF from "../images/AlexDales_Resume.pdf";
 import './navbar.css';
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
 
@@ -18,7 +19,7 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse mr-right" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#">Work <span className="sr-only">(current)</span></a>
+                <Link to="/" className="nav-link">Work <span className="sr-only">(current)</span></Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href={PDF} target="blank_">Resume <span className="sr-only">(current)</span> </a>
