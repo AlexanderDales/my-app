@@ -4,6 +4,8 @@ import Projects from './projects';
 import Freelance from './freelance';
 import Photography from './photography';
 import './work.css';
+import Navbar from "../navbar/navbar";
+import Footer from "../footer/footer";
 
 class Work extends Component {
   constructor(props) {
@@ -23,6 +25,7 @@ class Work extends Component {
 
     return (
     <div className="wrapper">
+    <Navbar />
       <div className="container-fluid">
         <div className="container-fluid" id="topDescription">
           <div className="container" id="topDescText">
@@ -39,7 +42,7 @@ class Work extends Component {
         <div className="container">
           <div class="row secondNav">
             <ul class="list-inline">
-              <li class={this.state.classNames.projects}
+              <li class={this.state.classNames.projects}ß
                   id="secondNavTitle"
                   onClick={() => this.setState({
                       selectedSection: 'projects',
@@ -83,7 +86,7 @@ class Work extends Component {
 
       </div>
     </div>
-
+    <Footer />
     </div>
 
   );

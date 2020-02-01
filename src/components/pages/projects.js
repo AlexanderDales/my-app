@@ -1,54 +1,60 @@
 import React, { Component } from 'react';
 import './projects.css';
+import caseStudy1 from './caseStudy1.js';
 import dailysum from '../images/dailysum.png';
+import { Link } from "react-router-dom";
+
 
 class Projects extends Component {
   render() {
     return (
       <div>
-<div className="container featured">
-  <div className="row">
 
-    <div class="col-lg-7 my-auto p-0">
-     <img src={dailysum} class="img-fluid"/>
+        <div className="container featured">
+          <div className="row">
+
+            <div class="col-lg-7 my-auto p-0">
+             <img src={dailysum} class="img-fluid"/>
+            </div>
+
+            <div class="col-lg-5 text-left my-auto">
+             <span><h5>Sprout at Work</h5></span>
+             <h4 class="study-header">Apps and Devices</h4>
+             <Link to="/caseStudy1">Read More</Link>
+          </div>
+        </div>
+        </div>
+
+
+        <div className="container featured">
+          <div className="row">
+
+            <div class="col-lg-7 my-auto p-0">
+             <img src={dailysum} class="img-fluid"/>
+            </div>
+
+            <div class="col-lg-5 text-left my-auto">
+             <Link to="/caseStudy2">Read More</Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="container featured">
+          <div className="row">
+
+            <div class="col-lg-7 my-auto p-0">
+             <img src={dailysum} class="img-fluid"/>
+            </div>
+
+            <div class="col-lg-5 text-left my-auto">
+             <span><h5>Mobile Android Application</h5></span>
+             <h4 class="study-header">New Night</h4>
+             <a href="#"><div class="view-btn-alt">Read More</div></a>
+            </div>
+          </div>
+        </div>
     </div>
 
-    <div class="col-lg-5 text-left my-auto">
-     <span><h5>Sprout at Work</h5></span>
-     <h4 class="study-header">Apps and Devices</h4>
-     <a href="#"><div class="view-btn-alt">Read More</div></a>
-    </div>
-  </div>
-</div>
-
-<div className="container featured">
-  <div className="row">
-
-    <div class="col-lg-7 my-auto p-0">
-     <img src={dailysum} class="img-fluid"/>
-    </div>
-
-    <div class="col-lg-5 text-left my-auto">
-     <a href="#"><div class="view-btn-alt">Read More</div></a>
-    </div>
-  </div>
-</div>
-
-<div className="container featured">
-  <div className="row">
-
-    <div class="col-lg-7 my-auto p-0">
-     <img src={dailysum} class="img-fluid"/>
-    </div>
-
-    <div class="col-lg-5 text-left my-auto">
-     <span><h5>Mobile Android Application</h5></span>
-     <h4 class="study-header">New Night</h4>
-     <a href="#"><div class="view-btn-alt">Read More</div></a>
-    </div>
-  </div>
-</div>
-</div>
 );
 }
 }
