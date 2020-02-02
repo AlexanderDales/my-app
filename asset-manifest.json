@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.003ca507.chunk.css",
-    "main.js": "/static/js/main.d6269c8f.chunk.js",
-    "main.js.map": "/static/js/main.d6269c8f.chunk.js.map",
+    "main.css": "/static/css/main.db8fced7.chunk.css",
+    "main.js": "/static/js/main.ce791748.chunk.js",
+    "main.js.map": "/static/js/main.ce791748.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.107bb8ca.js",
     "runtime-main.js.map": "/static/js/runtime-main.107bb8ca.js.map",
-    "static/js/2.46e37d34.chunk.js": "/static/js/2.46e37d34.chunk.js",
-    "static/js/2.46e37d34.chunk.js.map": "/static/js/2.46e37d34.chunk.js.map",
+    "static/js/2.a3601d1e.chunk.js": "/static/js/2.a3601d1e.chunk.js",
+    "static/js/2.a3601d1e.chunk.js.map": "/static/js/2.a3601d1e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9f149a5deb941ee220a7698dfb386300.js": "/precache-manifest.9f149a5deb941ee220a7698dfb386300.js",
+    "precache-manifest.6c84e9eb1890d0a9a00272f8882cab55.js": "/precache-manifest.6c84e9eb1890d0a9a00272f8882cab55.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.003ca507.chunk.css.map": "/static/css/main.003ca507.chunk.css.map",
-    "static/js/2.46e37d34.chunk.js.LICENSE": "/static/js/2.46e37d34.chunk.js.LICENSE",
+    "static/css/main.db8fced7.chunk.css.map": "/static/css/main.db8fced7.chunk.css.map",
+    "static/js/2.a3601d1e.chunk.js.LICENSE": "/static/js/2.a3601d1e.chunk.js.LICENSE",
     "static/media/AlexDales_Resume.pdf": "/static/media/AlexDales_Resume.b11fcfb3.pdf",
     "static/media/appsanddevices.png": "/static/media/appsanddevices.701f0bb6.png",
     "static/media/ar.png": "/static/media/ar.b1733819.png",
@@ -24,6 +24,11 @@
     "static/media/dailySum1.png": "/static/media/dailySum1.ba2ebf0a.png",
     "static/media/dailyactivitycover.png": "/static/media/dailyactivitycover.bcaa7196.png",
     "static/media/dailysum.png": "/static/media/dailysum.6ec25c8f.png",
+    "static/media/dailysum2.png": "/static/media/dailysum2.d7cefc58.png",
+    "static/media/dailysum3.png": "/static/media/dailysum3.ec25f8fa.png",
+    "static/media/dailysum4.png": "/static/media/dailysum4.f47fcd1d.png",
+    "static/media/dailysum5.png": "/static/media/dailysum5.721beab1.png",
+    "static/media/dailysum6.png": "/static/media/dailysum6.eaa23427.png",
     "static/media/dna.png": "/static/media/dna.32daf584.png",
     "static/media/dribbble.svg": "/static/media/dribbble.e2798590.svg",
     "static/media/flower.png": "/static/media/flower.d7cd64f6.png",
@@ -50,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.107bb8ca.js",
-    "static/js/2.46e37d34.chunk.js",
-    "static/css/main.003ca507.chunk.css",
-    "static/js/main.d6269c8f.chunk.js"
+    "static/js/2.a3601d1e.chunk.js",
+    "static/css/main.db8fced7.chunk.css",
+    "static/js/main.ce791748.chunk.js"
   ]
 }
