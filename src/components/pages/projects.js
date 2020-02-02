@@ -43,7 +43,7 @@ class Projects extends Component {
             <div class="col-lg-5 text-left my-auto">
             <div className="container rightSide">
              <span><div className="topText">Product Designer at Sprout</div></span>
-             <h4 class="study-header">Connecting....</h4>
+             <h4 class="study-header">Connecting Native OS Health to Sprout</h4>
              <Link to="/caseStudy2" className="link">View case study</Link>
              </div>
           </div>

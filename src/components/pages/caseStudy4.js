@@ -149,7 +149,6 @@ class caseStudy4 extends Component {
               </div>
             </div>
 
-
           </div>
         </div>
       <BottomNavThree />
