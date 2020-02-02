@@ -1,0 +1,21 @@
+.bottomText {
+  margin-top: 10%;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+#home {
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#project {
+  color: #30D27C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+}

@@ -22,6 +22,10 @@
   padding-bottom: 5%;
 }
 
+#GitHub {
+  color: #30D27C;
+}
+
 .topDescText {
   border-bottom: solid 2px #30D27C;
 }
@@ -145,4 +149,9 @@ div.col-lg-6 {
 
 .top-photo {
   margin-top: 8%;
+}
+
+.youtubeVideo {
+  margin-top: 5%;
+
 }

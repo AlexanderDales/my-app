@@ -27,7 +27,7 @@ class Projects extends Component {
             <div className="container rightSide">
              <span><div className="topText">Android Application</div></span>
              <h4 class="study-header">New Night</h4>
-             <Link to="/caseStudy1" className="link">View case study</Link>
+             <Link to="/caseStudy1" className="link">View project</Link>
              </div>
           </div>
         </div>
@@ -42,8 +42,8 @@ class Projects extends Component {
 
             <div class="col-lg-5 text-left my-auto">
             <div className="container rightSide">
-             <span><div className="topText">Sprout at Work</div></span>
-             <h4 class="study-header">On-boarding</h4>
+             <span><div className="topText">Product Designer at Sprout</div></span>
+             <h4 class="study-header">Connecting....</h4>
              <Link to="/caseStudy2" className="link">View case study</Link>
              </div>
           </div>
@@ -59,9 +59,9 @@ class Projects extends Component {
 
             <div class="col-lg-5 text-left my-auto">
             <div className="container rightSide">
-             <span><div className="topText">Sprout at Work</div></span>
+             <span><div className="topText">Product Designer at Sprout</div></span>
              <h4 class="study-header">Daily Activity</h4>
-             <Link to="/caseStudy1" className="link">View case study</Link>
+             <Link to="/caseStudy3" className="link">View case study</Link>
              </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ class Projects extends Component {
             <div className="container rightSide">
              <span><div className="topText">Co-op</div></span>
              <h4 class="study-header">Royal Bank of Canada</h4>
-             <Link to="/caseStudy1" className="link">My experience</Link>
+             <Link to="/caseStudy4" className="link">My experience</Link>
              </div>
           </div>
         </div>

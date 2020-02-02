@@ -25,9 +25,6 @@ class Freelance extends Component {
   render() {
     return (
     <div class ="container-fluid">
-      <div className="container Row freelanceText">
-        Below are a collection of some logo designs.
-      </div>
 
       <div class="container logos">
 
@@ -96,6 +93,13 @@ class Freelance extends Component {
       <div className="container dribbbleTextBox">
         <div className="row dribbbleText text-xs-center">
         See more on <a href="https://dribbble.com/AlexDales" target="blank_" id="onlyDribbble">Dribbble </a>
+        </div>
+      </div>
+
+
+      <div className="container dribbbleTextBox">
+        <div className="row dribbbleText text-xs-center">
+        <a href="https://dribbble.com/AlexDales" target="blank_" id="onlyDribbble">Commission Me</a>
         </div>
       </div>
 

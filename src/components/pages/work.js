@@ -33,8 +33,8 @@ class Work extends Component {
             I'm Alex -
             </div>
               <div className="row">
-              I'm a systems design engineering student in my 2A term at the University of Waterloo. Formely, I was a product designer at Sprout on the mobile team. Prior to that, I was a UI/UX designer at
-              the Royal Bank of Canada.
+              I am currently in my 2A term, studying Systems Design Engineering at the University of Waterloo. Formerly, I was a product designer on the mobile team at Sprout and
+              prior to that I was a UI/UX designer at the Royal Bank of Canada on an internal innovation team.
           </div>
 
         </div>

@@ -25,7 +25,7 @@ class Navbar extends Component {
                 <a className="nav-link" href={PDF} target="blank_">Resume <span className="sr-only">(current)</span> </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="mailto:contact@alexdales.com">Contact</a>
+                <a className="nav-link" href="mailto:ackdales@uwaterloo.ca">Contact</a>
               </li>
             </ul>
           </div>
