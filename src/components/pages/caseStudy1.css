@@ -51,6 +51,30 @@ div.container.content {
   font-size: 18px;
 }
 
+
+#step {
+  padding-top: 2%;
+  padding-bottom: 3%;
+  color: #1D1D1C;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.step-nt {
+  margin-top: 10%;
+}
+
+
+#step-description {
+  padding-bottom: 3%;
+  color: #1D1D1C;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
 #role {
   color: #1D1D1C;
   font-family: 'DM Sans', sans-serif;
@@ -60,6 +84,14 @@ div.container.content {
 }
 
 #roleHighlight {
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 15%;
+}
+
+#problem {
   color: #1D1D1C;
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
@@ -81,11 +113,36 @@ div.container.content {
 
 .highlight {
   margin-top: 4%;
-  background-color: #F2F2F2;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  background-color: #FBFBFB;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 .highlightContent {
   padding-left: 0px;
+}
+
+#underHighlight {
+  margin-top: 5%;
+}
+
+.title-text {
+  margin-top: 8%;
+}
+
+.double {
+  margin-top: 8%;
+}
+
+.para {
+  padding-bottom: 12%;
+}
+
+div.col-lg-6 {
+  padding: 0px;
+}
+
+.top-photo {
+  margin-top: 8%;
 }

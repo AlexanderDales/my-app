@@ -1,4 +1,33 @@
 .featured {
-   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+   box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 20px;
    margin-bottom: 7%;
+}
+
+.study-header {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding-top: 2%;
+}
+
+.link {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #30D27C;
+}
+
+.link:hover {
+  color: #30D27C;
+}
+
+.topText {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+
+}
+
+.rightSide {
+  margin-left: 2%;
 }

@@ -19,7 +19,7 @@ class Footer extends Component {
             <a href="https://twitter.com/byalexdales" target="_blank"><img src={twitterLogo} id="socialIcon" /></a>
           </div>
 
-          <div className="row justify-content-center" id="footerText">&copy; Alex Dales 2020 </div>
+          <div className="row justify-content-center" id="footerText">Designed & developed by Alex Dales</div>
         </div>
       </div>
     </div>

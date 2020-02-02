@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import './projects.css';
 import caseStudy1 from './caseStudy1.js';
+import caseStudy2 from './caseStudy2.js';
 import dailysum from '../images/dailysum.png';
 import appsanddevices from "../images/appsanddevices.png";
 import newnightcover from "../images/newnightcover.png";
+import dailyactivitycover from "../images/dailyactivitycover.png";
+import rbcCover from "../images/rbcCover.png";
 
 import { Link } from "react-router-dom";
 
@@ -21,9 +24,11 @@ class Projects extends Component {
             </div>
 
             <div class="col-lg-5 text-left my-auto">
-             <span><h5>Mobile Android Application</h5></span>
+            <div className="container rightSide">
+             <span><div className="topText">Android Application</div></span>
              <h4 class="study-header">New Night</h4>
-             <Link to="/caseStudy1">More on this case study</Link>
+             <Link to="/caseStudy1" className="link">View case study</Link>
+             </div>
           </div>
         </div>
         </div>
@@ -36,9 +41,11 @@ class Projects extends Component {
             </div>
 
             <div class="col-lg-5 text-left my-auto">
-             <span><h5>Sprout at Work</h5></span>
-             <h4 class="study-header">Re-designing Daily Activity</h4>
-             <Link to="/caseStudy1">More on this case study</Link>
+            <div className="container rightSide">
+             <span><div className="topText">Sprout at Work</div></span>
+             <h4 class="study-header">On-boarding</h4>
+             <Link to="/caseStudy2" className="link">View case study</Link>
+             </div>
           </div>
         </div>
         </div>
@@ -47,13 +54,15 @@ class Projects extends Component {
           <div className="row">
 
             <div class="col-lg-7 my-auto p-0">
-             <img src={appsanddevices} class="img-fluid"/>
+             <img src={dailyactivitycover} class="img-fluid"/>
             </div>
 
             <div class="col-lg-5 text-left my-auto">
-             <span><h5>Sprout at Work</h5></span>
-             <h4 class="study-header">Re-designing Daily Activity</h4>
-             <Link to="/caseStudy1">More on this case study</Link>
+            <div className="container rightSide">
+             <span><div className="topText">Sprout at Work</div></span>
+             <h4 class="study-header">Daily Activity</h4>
+             <Link to="/caseStudy1" className="link">View case study</Link>
+             </div>
           </div>
         </div>
         </div>
@@ -63,13 +72,15 @@ class Projects extends Component {
           <div className="row">
 
             <div class="col-lg-7 my-auto p-0">
-             <img src={appsanddevices} class="img-fluid"/>
+             <img src={rbcCover} class="img-fluid"/>
             </div>
 
             <div class="col-lg-5 text-left my-auto">
-             <span><h5>Royal Bank of Canadak</h5></span>
-             <h4 class="study-header">Re-designing Daily Activity</h4>
-             <Link to="/caseStudy1">More on this case study</Link>
+            <div className="container rightSide">
+             <span><div className="topText">Co-op</div></span>
+             <h4 class="study-header">Royal Bank of Canada</h4>
+             <Link to="/caseStudy1" className="link">My experience</Link>
+             </div>
           </div>
         </div>
         </div>

@@ -51,7 +51,7 @@ class Work extends Component {
                         freelance: 'list-inline-item',
                         photography: 'list-inline-item'
                       }
-                    })}>Projects</li>
+                    })}>Product</li>
               <li class={this.state.classNames.freelance}
                   id="secondNavTitle"
                   onClick={() => this.setState({
