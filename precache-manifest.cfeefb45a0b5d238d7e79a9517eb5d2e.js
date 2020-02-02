@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3587acd5636b1985d373c38bcc359238",
+    "revision": "33042b6d0c650d9f761cc3f378f7f0fa",
     "url": "/index.html"
   },
   {
-    "revision": "defbdc88768778bef5de",
-    "url": "/static/css/main.14d495e3.chunk.css"
+    "revision": "7e2e4db312e0ad413ca1",
+    "url": "/static/css/main.e4c0a304.chunk.css"
   },
   {
-    "revision": "5689da2086dd705c61d1",
-    "url": "/static/js/2.e4b1d43d.chunk.js"
+    "revision": "8bcf5341f95df3a1a06c",
+    "url": "/static/js/2.a2dd4d0e.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/static/js/2.e4b1d43d.chunk.js.LICENSE"
+    "url": "/static/js/2.a2dd4d0e.chunk.js.LICENSE"
   },
   {
-    "revision": "defbdc88768778bef5de",
-    "url": "/static/js/main.a73b5f75.chunk.js"
+    "revision": "7e2e4db312e0ad413ca1",
+    "url": "/static/js/main.04c80d99.chunk.js"
   },
   {
     "revision": "19133a5d6c7be98533aa",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AlexDales_Resume.b11fcfb3.pdf"
   },
   {
-    "revision": "3647cd5a8f585092222f0a196d8dd5c1",
-    "url": "/static/media/appsanddevices.3647cd5a.png"
+    "revision": "701f0bb6251d2eb1f69cf97594543186",
+    "url": "/static/media/appsanddevices.701f0bb6.png"
   },
   {
     "revision": "b173381907b592293591b999608ccc2a",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a5e0fbb5de608fa6974c230ecc7a74ce",
     "url": "/static/media/csgocrave.a5e0fbb5.png"
+  },
+  {
+    "revision": "bcaa7196ada369efd58e5055fd3739f8",
+    "url": "/static/media/dailyactivitycover.bcaa7196.png"
   },
   {
     "revision": "6ec25c8f87db85774a6c40ef43d10397",
@@ -108,6 +112,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/newnightcover.176abdc1.png"
   },
   {
+    "revision": "4535b83601c5e7bd0cda0053d319ed28",
+    "url": "/static/media/newnightflow1.4535b836.png"
+  },
+  {
+    "revision": "7a15a4dd466f64534603cee1c987b119",
+    "url": "/static/media/newnightflow2.1.7a15a4dd.png"
+  },
+  {
+    "revision": "c245482ee90bd2f82abe7ba92bbd282d",
+    "url": "/static/media/newnightflow2.c245482e.png"
+  },
+  {
+    "revision": "a22b458e31fc2ff682adc8612dfea85d",
+    "url": "/static/media/newnightflow3.a22b458e.png"
+  },
+  {
     "revision": "59bcd78b7e75412275a9299b9f4e536b",
     "url": "/static/media/newnightscreens.59bcd78b.png"
   },
@@ -118,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "298d02c7c0b26c74cd97b43bdda7276f",
     "url": "/static/media/personalLogo.298d02c7.svg"
+  },
+  {
+    "revision": "037633140241344ca61cc5a445289310",
+    "url": "/static/media/rbcCover.03763314.png"
   },
   {
     "revision": "1d8fed7e5b325d5c0bff46d8e4985025",
