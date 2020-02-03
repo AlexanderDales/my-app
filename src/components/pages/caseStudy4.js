@@ -17,7 +17,7 @@ import rbcfinal from "../images/rbcfinal.png";
 
 import FaLock from 'react-icons/lib/fa/lock';
 
-import BottomNavFour from './bottomNavFour';
+import BottomNavTwo from './bottomNavTwo';
 
 class caseStudy4 extends Component {
   render() {
@@ -66,7 +66,7 @@ class caseStudy4 extends Component {
           <div className="container highlightContent">
             <div id="roleHighlight">RBCx Internal Webpage Redesign</div>
             <div className="no-step" id="step-description">
-              My redesign below for the internal RBCx webpage became the 4th most visited webpage witin two months of my co-op term ending. It also doubled the number of applicants for the next season to over 250 RBC employees.
+              My redesign below for the internal RBCx webpage became the 4th most visited webpage within two months of my co-op term ending. It also doubled the number of applicants for the next season to over 250 RBC employees.
               <br /><br/>
               The design had to be implemented within the internal webapage framework, which limited design capabilities and freedom. As a result, I came up with a design that addressed the most important information about the program with
               a stronger emphasis on applying to the program. My design provided more resources for candidates to learn about past solutions and what the program offers.
@@ -174,7 +174,7 @@ class caseStudy4 extends Component {
 
               </div>
               </div>
-      <BottomNavFour />
+      <BottomNavTwo/>
       <Footer />
       </div>
       </div>
