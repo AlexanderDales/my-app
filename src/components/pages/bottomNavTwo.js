@@ -8,7 +8,7 @@ class BottomNavTwo extends Component {
       <div>
         <div className="container">
           <div className="row justify-content-center">
-            <Link to="/" className="bottomText" id="home">Home</Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span className="bottomText">/</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Link to="/caseStudy3" className="bottomText" id="project">Next Project</Link>
+            <Link to="/" className="bottomText" id="home">Home</Link>
           </div>
         </div>
       </div>

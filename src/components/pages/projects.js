@@ -37,23 +37,6 @@ class Projects extends Component {
           <div className="row">
 
             <div class="col-lg-7 my-auto p-0">
-             <img src={appsanddevices} class="img-fluid"/>
-            </div>
-
-            <div class="col-lg-5 text-left my-auto">
-            <div className="container rightSide">
-             <span><div className="topText">Product Designer at Sprout</div></span>
-             <h4 class="study-header">Connecting Native OS Health to Sprout</h4>
-             <Link to="/caseStudy2" className="link">View case study</Link>
-             </div>
-          </div>
-        </div>
-        </div>
-
-        <div className="container featured">
-          <div className="row">
-
-            <div class="col-lg-7 my-auto p-0">
              <img src={dailyactivitycover} class="img-fluid"/>
             </div>
 
@@ -67,7 +50,6 @@ class Projects extends Component {
         </div>
         </div>
 
-
         <div className="container featured">
           <div className="row">
 
@@ -77,13 +59,19 @@ class Projects extends Component {
 
             <div class="col-lg-5 text-left my-auto">
             <div className="container rightSide">
-             <span><div className="topText">Co-op</div></span>
-             <h4 class="study-header">Royal Bank of Canada</h4>
-             <Link to="/caseStudy4" className="link">My experience</Link>
+             <span><div className="topText">Royal Bank of Canada</div></span>
+             <h4 class="study-header">Internal Innovation Program</h4>
+             <Link to="/caseStudy4" className="link">My co-op experience</Link>
              </div>
           </div>
         </div>
         </div>
+
+
+
+
+
+
 
 
 

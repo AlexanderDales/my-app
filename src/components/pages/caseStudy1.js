@@ -140,7 +140,7 @@ class caseStudy1 extends Component {
 
               </div>
             </div>
-            
+
           </div>
         </div>
       <BottomNav />

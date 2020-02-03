@@ -2,14 +2,22 @@ import React, { Component } from 'react';
 import './caseStudy1.css';
 import Navbar from "../navbar/navbar";
 import Footer from "../footer/footer";
-import newnightscreens from "../images/newnightscreens.png";
-import newnightflow1 from "../images/newnightflow1.png";
-import newnightflow2 from "../images/newnightflow2.png";
-import newnightflow21 from "../images/newnightflow2.1.png";
-import newnightflow3 from "../images/newnightflow3.png";
-import userInterviews1 from "../images/userInterviews1.png";
-import dailySum1 from "../images/dailySum1.png";
-import BottomNavThree from './bottomNavThree';
+import rbcx1 from "../images/rbcx1.png";
+import rbcx2 from "../images/rbcx2.png";
+import rbcx3 from "../images/rbcx3.png";
+import rbcx4 from "../images/rbcx4.png";
+import turba from "../images/turba.png";
+import xpo1 from "../images/xpo1.jpeg";
+import xpo2 from "../images/xpo2.jpg";
+import xpo3 from "../images/xpo3.png";
+import rbcfinal from "../images/rbcfinal.png";
+
+
+
+
+import FaLock from 'react-icons/lib/fa/lock';
+
+import BottomNavFour from './bottomNavFour';
 
 class caseStudy4 extends Component {
   render() {
@@ -25,134 +33,150 @@ class caseStudy4 extends Component {
               <div className="row" id="subTitle">
               My Co-op Experience
               </div>
-              <div className="row" id="desc"> The Daily Summary is a block on the Sprout mobile ‘Home’ page under the dashboard and before the user stream.
-              Currently, this block serves the purpose of providing the user with information about their day.
-              </div>
+              <div className="row" id="desc">
+              My co-op term at RBC was my first co-op experience through the University of Waterloo’s Engineering program. During my term I was a UI/UX designer on a program team for an internal innovation program at the bank, called RBCx. I was working downtown Toronto at the RBC Waterpark location. Apart from all of the work experience and professional development I gained, it was also a big learning experience living together with one of my classmates in the city. I was very excited to
+              be working in the heart of Toronto, while doing my passion as a job. This page talks about the RBCx program, how I contributed as a designer and a reflection on my term at the bank.
+            </div>
         </div>
         </div>
 
         <div className="container content">
-          <div id="roleHighlight">Previous Design</div>
-          <div className="row top-photo">
-              <div class="col-lg-12">
-               <img src={dailySum1} class="img-fluid"/>
-              </div>
+        <div className="row top-photo">
+            <div class="col-lg-12">
+             <img src={rbcx1} class="img-fluid"/>
             </div>
+          </div>
+
+
           <div className="container para">
-          <div id="role">My Role</div>
-            <div id="text">The Daily Summary is a block on the Sprout mobile ‘Home’ page under the dashboard and before the user stream. Currently, this block serves the purpose of providing the user with information about their day, specifically:</div>
+          <div id="role">What is RBCx?</div>
+            <div id="text">The RBCx Program is an intrapreneuship program that brings together RBC employees from across the organization to be placed into 7 teams that each had to solve a sponsored challenge given by the different departments in the bank. These challenges were real internal issues that these lines of business were facing and wanting to solve. The program brings in around 30 employees from across the bank, who apply for the program. They are then placed into teams, that undergo a 9-week process of solving their business challenge. At the end of the 9 weeks, all the teams present their solutions at the RBCxpo, in the auditorium at RBC Waterpark Place, downtown Toronto. This event brought together over 250 guests, including department executives.</div>
           </div>
           </div>
 
           <div className="container-fluid highlight">
             <div className="container highlightContent">
-              <div id="problem"> Problem Statement </div>
-              <div id="text">How can the ‘Daily summary’ aim to increase user engagement and return rate, through a more insightful representation of a user’s daily activity by displaying more relevant information about their daily activity?
+              <div id="problem"> My Role </div>
+              <div id="text">As one of the UI/UX designers on the program team for RBCx, I took on many different responsibilities as a designer. I was in charge of designing the branding associated with the RBCxpo and RBCx brand for the current season, as well as redesigning the internal RBCx webpage. The most interesting part of my job was when I got to work with three different RBCx participant groups to create interactive high-fidelity prototypes of their business solution products. Throughout this process, I designed different web and a mobile designs in Sketch and used Figma to demonstrate interactive capabilities. I was also exposed to developing in HTML and CSS for the first time while implementing the new internal RBCx webpage.
               </div>
             </div>
           </div>
 
 
-          <div className="container-fluid" id="underHighlight">
-            <div className="container highlightContent">
-              <div id="roleHighlight">User Interviews</div>
-              <div id="text">
+          <div className="container highlightContent">
+            <div id="roleHighlight">RBCx Internal Webpage Redesign</div>
+            <div className="no-step" id="step-description">
+              My redesign below for the internal RBCx webpage became the 4th most visited webpage witin two months of my co-op term ending. It also doubled the number of applicants for the next season to over 250 RBC employees.
+              <br /><br/>
+              The design had to be implemented within the internal webapage framework, which limited design capabilities and freedom. As a result, I came up with a design that addressed the most important information about the program with
+              a stronger emphasis on applying to the program. My design provided more resources for candidates to learn about past solutions and what the program offers.
+            </div>
+
+          <div className="row">
+              <div class="col-lg-12">
+               <img src={rbcx4} class="img-fluid"/>
               </div>
-            <div className="row">
-                <div class="col-lg-12">
-                 <img src={userInterviews1} class="img-fluid"/>
-                </div>
-            </div>
-            </div>
-
-
-            <div className="container highlightContent">
-              <div id="roleHighlight">Interview take-aways - User Assumptions</div>
-              <div id="text">
-              <ul>
-                <li>Users cannot quickly take-away information from the current daily summary</li>
-                <li>Users do not clearly understand the raltionship between the progress bars and strings</li>
-                <li>Users are scrolling past the daily activity block</li>
-                <li>Users do not know what they are working towards</li>
-                <li>Users do not understand what metrics have earned them these points</li>
-              </ul>
-              </div>
-            </div>
-
-
+          </div>
+          </div>
+          </div>
 
             <div className="container-fluid" id="underHighlight">
               <div className="container highlightContent">
-                <div id="roleHighlight">Product Criteria</div>
+                <div id="roleHighlight">RBCx High-Fidelity Prototyping</div>
                 <div id="text">
-
-                  <ul>
-                  <br/><li>Interaction and styling had to follow Google Material Design</li>
-                  <li>Google's Places API only returned certain data about venues</li>
-                  </ul>
-                  The biggest constraint throughout this project was what was possible in terms of development. I had all of these ideas for the sort of details I wanted the design to show for venues, but these were limited by the API's capability.
-                  Moreover, there were certain features, transitions and designs that I wanted implemented, but they were too difficult to implement as my classmate was solo-developing the app. I quickly learned that I had to have more realistic design features
-                  that could be implemented based on the API and my classmate's ability.
+                  Towards week 6 of the 9-week program, I started to work more closely with the RBCx teams to design prototypes based on the product they had in mind, which the goal of solving the idea that they had came up with.
+                  Due to confidential reasons, I am only allowed to share some of the screens I designed for the prototypes and I cannot explicity state what internal problems these products were for. If you are interested in viewing the interaction prototypes in Figma, please contact me.
                 </div>
               </div>
             </div>
 
             <div className="container-fluid" id="underHighlight">
               <div className="container highlightContent">
-                <div id="roleHighlight"> Process </div>
-                <div id="step"> 1. Initial User Flow<br/></div>
-                <div id="step-description"> The first step for me was to block out the general flow I had in mind for the application. I listed the general information/interactions that I had in mind for the different steps throughout
-                the user’s interaction with the app. I knew that I wanted a dedicated home screen, which then took the user through different steps of choosing their preferences and finally returning results based on the filters they just selected. </div>
+                <div id="step"> 1. CAre Path<br/></div>
+                <div id="step-description">CAre path is an internal web application that allows client advisors to find different career paths, by assessing their skills, personality and goals. The challenge for this team was sponsored by P&CB (Personal & Commercial Banking).</div>
+                <button type="button" className="btn btn-primary" id="above-photo"><FaLock/>&nbsp;&nbsp;&nbsp;Figma Interaction Prototype</button>
                 <div className="row">
-                    <div class="col-lg-12">
-                     <img src={newnightflow1} class="img-fluid"/>
+                    <div className="col-lg-12">
+                     <img src={rbcx3} className="img-fluid"/>
                     </div>
                 </div>
 
-                <div id="step" className="step-nt"> 2. Wireframing<br/></div>
-                <div id="step-description">Once I had an idea of the different information I wanted to display, I built out wireframes. In the wireframes, I created specific screens for the venue type and music type filters, with the other filters combined into one screen.
-                As a user, I felt as though the venue type and the music type were the most important filters throughout the process, which was why I seperated them into individual screens.
-                </div>
-                <div className="row">
-                    <div class="col-lg-12">
-                     <img src={newnightflow2} class="img-fluid"/>
+                <div className="container-fluid" id="underHighlight">
+                  <div className="container highlightContent">
+                    <div id="step"> 2. RoleEX<br/></div>
+                    <div id="step-description">The team worked on this challenge for I&TS (Investor & Treasury Services). RoleEX is an internal web application that allows RBC employees in I&TS to find open role opportunities based on their preferences within the bank.</div>
+                    <button type="button" className="btn btn-primary" id="above-photo"><FaLock/>&nbsp;&nbsp;&nbsp;Figma Interaction Prototype</button>
+                    <div className="row">
+                        <div className="col-lg-12">
+                         <img src={rbcx2} className="img-fluid"/>
+                        </div>
                     </div>
+                  </div>
+
+                  <div className="container-fluid" id="underHighlight">
+                    <div className="container highlightContent">
+                      <div id="step"> 3. Turba<br/></div>
+                      <div id="step-description">This product was sponsored by RBC Ventures, which is group in the bank focused on creating inovating products. For this project the team I worked with had to come up with a product that used data for the greater good.
+                      The design below is a mobile application providing users with unique insights about their commute to work.
+                       </div>
+                      <button type="button" className="btn btn-primary" id="above-photo"><FaLock/>&nbsp;&nbsp;&nbsp;Figma Interaction Prototype</button>
+                      <div className="row">
+                          <div className="col-lg-12">
+                           <img src={turba} className="img-fluid"/>
+                          </div>
+                      </div>
+                    </div>
+
+                <div className="container highlightContent">
+                  <div id="roleHighlight">The RBCxpo</div>
+                  <div className="no-step" id="step-description">
+                  After the 9 weeks, all of the hard work that was put in by the 7 teams was finally shown off at the RBCxpo. All of the teams, the RBCx program team and over 250 guests gathered in the auditorium at RBC Waterpark Place, where the teams pitched their solutions. Among the crowd were executives, past RBCx alumni, and other RBC employees who were invited. During the event, the interaction prototypes that had created for the teams were shown off in their presentations along with the process that the teams had followed to come up with their solutions. The solutions are to be eventually implemented by the lines of business that sponsored the different business challenges that were solutioned by the teams. I was very thrilled to have experienced bringing the teams’ ideas into feasible design products that solved different internal business problems.
+                  <br/><br/>Leading up to the event, I had the opportunity to design some of the branding elements for the xpo. This included the signage, the information booklet and swag that was given to all guests. In addition, I was able to help with the event planning and making sure that things were running smoothly day of.
+
+                  <div className="row xpo">
+                      <div className="col-lg-12">
+                       <img src={xpo3} className="img-fluid"/>
+                      </div>
+                  </div>
+                  <div className="row xpo">
+                      <div className="col-lg-12">
+                       <img src={xpo2} className="img-fluid"/>
+                      </div>
+                  </div>
+                  <div className="row xpo">
+                      <div className="col-lg-12">
+                       <img src={xpo1} className="img-fluid"/>
+                      </div>
+                  </div>
+                  </div>
+
+
+                  <div className="container-fluid" id="underHighlight">
+                    <div className="container highlightContent">
+                      <div id="roleHighlight">Reflection</div>
+                      <div id="text">
+                        My experience working at RBC was a lot different than I had initially expected at the start of the co-op term. Not knowing where I was going to fit in to such a large company was overwhelming at first, but I was quickly welcomed by the RBCx program team and its participants. Throughout the four months I developed skills in Sketch and Figma, through the design of different web and mobile interfaces. More importantly, I had the opportunity to work with lots of different people from all across the bank. I was able to get to know some of these people on a more personal level through lots of conversations. There were 30 participants in the RBCx program, in which the majority I was able speak with over the 9 weeks. It was truly a unique experience and I am grateful to have worked with such a great team. Special thanks to my managers, Jason Graham and Jordan Borges, for mentoring me during my time at RBC.
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div className="row xpo">
+                      <div className="col-lg-12">
+                       <img src={rbcfinal} className="img-fluid"/>
+                      </div>
+                  </div>
+
+
+
+                </div>
                 </div>
 
-                <div id="step" className="step-nt"> 3. Reiterating<br/></div>
-                <div id="step-description">Since this project was collaborative, it was important as a designer to gain feedback from my classmate. After I had created the initial wireframes, he was able to point out some suggestions and set some constraints in
-                terms of what would be possible to develop. Based on his feedback I noted some of the changes to be made:
-                <ul>
-                <br/><li>Combine all of the filters into one page to simplify user flow, seperate screens is unnecessary</li>
-                <li>Remove the filter tags at the top of the results screen</li>
-                <li>A vertical list for the 'Top Results' would be easier to implement over the horizontal option</li>
-                <li>The 'Randomize location' button on the results page was not a prioritized feature for the inital stage of developing the app</li>
-                <li>In the next iteration I added a wireframe for the result details</li>
-                </ul>
-                </div>
-                <div className="row">
-                    <div class="col-lg-12">
-                     <img src={newnightflow21} class="img-fluid"/>
-                    </div>
-                </div>
-
-
-                <div id="step" className="step-nt"> 4. Final Mockups<br/></div>
-                <div id="step-description">The final mockups, as well as the different fidelity of wireframes, were all created using Sketch. Since the design followed Google Material Design, I was able to leverage the material design components file in order to
-                design the high fidelity mockups using the correct grid, font/icon sizes, colors, selection lists, images, etc. In addition, I created mockups that included all spacing measurements, icon/font sizes and design properties (not pictured).
-                </div>
-                <div className="row">
-                    <div class="col-lg-12">
-                     <img src={newnightflow3} class="img-fluid"/>
-                    </div>
-                </div>
               </div>
-            </div>
-
-          </div>
-        </div>
-      <BottomNavThree />
+              </div>
+      <BottomNavFour />
       <Footer />
+      </div>
       </div>
   );
   }

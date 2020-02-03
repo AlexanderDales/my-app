@@ -106,13 +106,15 @@ div.container.content {
   border-radius: 5px;
   border-color: #30D27C;
   background-color: #30D27C;
+  opacity: 50%;
   margin-top: 2%;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-success:active:focus, .btn-primary:active:focus .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #3FEA8F;
-    border-color: #3FEA8F; /*set the color you want here*/
+    background-color: #30D27C;
+    opacity: 50%;
+    border-color: #30D27C; /*set the color you want here*/
 }
 
 .highlight {
@@ -157,7 +159,13 @@ div.col-lg-6 {
 
 .no-step {
   padding-top: 2%;
+}
+
+#above-photo {
+  margin-bottom: 3%;
+}
 
 
-
+.xpo {
+  margin-top: 3%;
 }

@@ -56,7 +56,7 @@ class caseStudy3 extends Component {
           <div className="container para">
           <div id="role">My Role</div>
             <div id="text">For this feature, I led an end-to-end re-design of the Daily Activity feature, while consulting with a senior product designer and the mobile product owner. I conducted user interviews, established the problem, set requirements and then completed all the different
-            levels of wireframing leading to the final design ready to be implemented into the app. I designed all fo the</div>
+            levels of wireframing leading to the final design, ready to be implemented into the app. All designs were done in Sketch.</div>
           </div>
           </div>
 
@@ -110,7 +110,7 @@ class caseStudy3 extends Component {
                 <div id="text">
                    I discussed with the product owner all of the information I had gathered about users and the problem that this re-design was looking to solve. We were able to set acceptance criteria for the feature, which was also shared with the developers.
                   <ul>
-                  <br/><li>-	Only if there are any activities or metrics recorded for the day do I see the my day summary</li>
+                  <br/><li>Only if there are any activities or metrics recorded for the day do I see the my day summary</li>
                   <li>It is showing up as a card, but visually different from other cards in the feed</li>
                   <li>Total points earned so far today</li>
                   <li>Average daily points earned</li>
@@ -151,7 +151,7 @@ class caseStudy3 extends Component {
 
 
                 <div id="step" className="step-nt"> 3. High-Fidelity Design Options<br/></div>
-                <div id="step-description">Moving forward, I choose to build out some design options that featured a new representation of daily points earned in a bar chart. This design would be able to be implemented more easily than some of the others, since it did not include new features.
+                <div id="step-description">Moving forward, I chose to build out some design options that featured a new representation of daily points earned in a bar chart. This design could be implemented more easily than some of the others, since it did not include new features.
                 It included a new representation of the same data that was available on the backend, which followed the design constraint I mentioned earlier.
                 </div>
                 <div className="row">
@@ -159,8 +159,6 @@ class caseStudy3 extends Component {
                      <img src={dailySum4} class="img-fluid"/>
                     </div>
                 </div>
-
-
 
                 <div id="step" className="step-nt"> 4. Narrowed Design Options<br/></div>
                 <div id="step-description">After gaining feedback and sharing the inital design options with a senior designer, he helped me narrow all of the options to three main designs:
@@ -171,8 +169,7 @@ class caseStudy3 extends Component {
                     </div>
                 </div>
 
-
-                <div id="step" className="step-nt"> 4. Final Design Implemented<br/></div>
+                <div id="step" className="step-nt"> 5. Final Design Implemented<br/></div>
                 <div className="row">
                     <div class="col-lg-12">
                      <img src={dailySum6} class="img-fluid"/>
@@ -180,13 +177,11 @@ class caseStudy3 extends Component {
                 </div>
               </div>
             </div>
-</div>
-
           </div>
-
+        </div>
       <BottomNavThree />
       <Footer />
-      </div>
+  </div>
   );
   }
 }
