@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aee49ede51b615ef7df36ec78c9a1aab",
+    "revision": "9e794ba5e4b40fb548c2a9e22980172b",
     "url": "/index.html"
   },
   {
-    "revision": "4ca853699b6a68272883",
-    "url": "/static/css/main.b2cac24c.chunk.css"
+    "revision": "e68eacf0ad00645ccc38",
+    "url": "/static/css/main.41e19122.chunk.css"
   },
   {
-    "revision": "da6f98e129e5a7442b27",
-    "url": "/static/js/2.794e43c8.chunk.js"
+    "revision": "d7de3e5e36fd0721f048",
+    "url": "/static/js/2.073fa437.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/static/js/2.794e43c8.chunk.js.LICENSE"
+    "url": "/static/js/2.073fa437.chunk.js.LICENSE"
   },
   {
-    "revision": "4ca853699b6a68272883",
-    "url": "/static/js/main.3888ccdb.chunk.js"
+    "revision": "e68eacf0ad00645ccc38",
+    "url": "/static/js/main.0351bd75.chunk.js"
   },
   {
     "revision": "19133a5d6c7be98533aa",
@@ -168,6 +168,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/rbcCover.03763314.png"
   },
   {
+    "revision": "54cd9e3874f3bb2a7a4c1e9ec7dc36a2",
+    "url": "/static/media/rbcfinal.54cd9e38.png"
+  },
+  {
     "revision": "41bbc82fbb652f18238700641576f7fa",
     "url": "/static/media/rbcx1.41bbc82f.png"
   },
@@ -188,6 +192,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/swift.1d8fed7e.png"
   },
   {
+    "revision": "4aab955febf18c0b0ec0c561b2b1e090",
+    "url": "/static/media/turba.4aab955f.png"
+  },
+  {
     "revision": "6c199d796f8c6dc7ab1f256eb2f55bc1",
     "url": "/static/media/twc.6c199d79.png"
   },
@@ -198,5 +206,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dff52e81c151182182488e36d283250e",
     "url": "/static/media/userInterviews1.dff52e81.png"
+  },
+  {
+    "revision": "f61e6c38232ae8487a87590e3c4271f8",
+    "url": "/static/media/xpo1.f61e6c38.jpeg"
+  },
+  {
+    "revision": "3b3a45064dcd4be80c90ea8c4bb2078b",
+    "url": "/static/media/xpo2.3b3a4506.jpg"
+  },
+  {
+    "revision": "4da17673e98ec4fe612943829942db4e",
+    "url": "/static/media/xpo3.4da17673.png"
   }
 ]);
