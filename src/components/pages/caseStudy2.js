@@ -13,6 +13,11 @@ import apps2 from "../images/apps2.png";
 import apps3 from "../images/apps3.png";
 import apps4 from "../images/apps4.png";
 import apps5 from "../images/apps5.png";
+import apps6 from "../images/apps6.png";
+import apps7 from "../images/apps7.png";
+import apps8 from "../images/apps8.png";
+
+
 
 import BottomNavTwo from './bottomNavTwo';
 class caseStudy2 extends Component {
@@ -38,7 +43,8 @@ class caseStudy2 extends Component {
       <div className="container-fluid highlight">
         <div className="container highlightContent">
           <div id="problem"> My Role </div>
-          <div id="text">How can the ‘Daily summary’ aim to increase user engagement and return rate, through a more insightful representation of a user’s daily activity by displaying more relevant information about their daily activity?
+          <div id="text">For this feature, I re-designed the user experience of connecting external applications to Sprout's application during on-boarding and while in the app. I followed requirements that were pre-established by the mobile product owner and helped me develop user assumptions, all the way through to wireframes and the final design flow.
+          I considered all the different uses cases and looked at different situations when the user tries to connect the external applications. Finally, I prepared all of my designs for developers who implemented the design changes.
           </div>
         </div>
       </div>
@@ -56,7 +62,6 @@ class caseStudy2 extends Component {
           <div className="container highlightContent">
             <div id="problem">Use Cases</div>
             <div id="text">
-              Based on the users interviews I conducted, I was able to list the user assumptions:
             <ol>
               <br/><li>User connects to OS health app during the on-boarding process.</li>
               <li>User skips on-boarding process (whole process or Connect Apps and devices section) and connects to OS health app through Me > Profile > Apps and devices</li>
@@ -150,6 +155,34 @@ class caseStudy2 extends Component {
               <div className="row">
                   <div class="col-lg-12">
                    <img src={apps5} class="img-fluid"/>
+                  </div>
+              </div>
+
+              <div id="step" className="step-nt">- High-Fidelity Mockups/Flow<br/></div>
+              <div id="step" className="step">i) On-boarding<br/></div>
+              <div id="step-description">
+              </div>
+              <div className="row">
+                  <div class="col-lg-12">
+                   <img src={apps6} class="img-fluid"/>
+                  </div>
+              </div>
+
+              <div id="step" className="step">ii) In-app<br/></div>
+              <div id="step-description">
+              </div>
+              <div className="row">
+                  <div class="col-lg-12">
+                   <img src={apps7} class="img-fluid"/>
+                  </div>
+              </div>
+
+              <div id="step" className="step-nt">- Dev handoff<br/></div>
+              <div id="step-description">
+              </div>
+              <div className="row">
+                  <div class="col-lg-12">
+                   <img src={apps8} class="img-fluid"/>
                   </div>
               </div>
 

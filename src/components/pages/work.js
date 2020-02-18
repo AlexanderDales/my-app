@@ -38,8 +38,8 @@ class Work extends Component {
               I am currently in my 2A term, studying Systems Design Engineering at the University of Waterloo. Formerly, I was a product designer on the mobile team at Sprout and
               prior to that I was a UI/UX designer at the Royal Bank of Canada on an internal innovation team. I have been running my own freelance design business, focused on logo design, branding and typograhy since the start of highschool. This
               has given me the opportunity to work with hundreds of clients from around the world, while learning how to self-manage commissions and build loyal customer relationships. Aside from design, I exercise my creativity through photography and fashion, two of my favourite hobbies.
-          </div>
-          <div className="row">
+              <br/><br/>
+              Fun fact: I am bilingual in French (B2) and English (Native)!
           </div>
         </div>
 
