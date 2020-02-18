@@ -169,3 +169,12 @@ div.col-lg-6 {
 .xpo {
   margin-top: 3%;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+.wrap{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+}

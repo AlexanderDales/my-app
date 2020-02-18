@@ -25,3 +25,17 @@
   width: 60px;
   margin-right: 2.5%;
 }
+
+.navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+.navbar {
+  margin-top: 8%;
+  padding: 0px;
+}
+
+}

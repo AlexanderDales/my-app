@@ -30,3 +30,12 @@
 .rightSide {
   margin-left: 2%;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+.featured {
+  margin-bottom: 30%;
+}
+
+
+}

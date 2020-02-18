@@ -19,3 +19,30 @@
   margin-top: 2%;
   font-size: 13px;
 }
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+  #socialIcon {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    align-items: center;
+  }
+
+
+  #footerText {
+    margin-top: 4%;
+    font-size: 12px;
+  }
+
+
+  .footer {
+    margin-top: 20%;
+    padding-top: 10%;
+    padding-bottom: 9%;
+  }
+
+
+
+
+}

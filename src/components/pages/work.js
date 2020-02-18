@@ -26,6 +26,7 @@ class Work extends Component {
   render() {
 
     return (
+    <div>
     <div className="wrapper">
     <Navbar />
       <div className="container-fluid">
@@ -89,6 +90,7 @@ class Work extends Component {
       }
 
       </div>
+    </div>
     </div>
     <Footer />
     </div>
