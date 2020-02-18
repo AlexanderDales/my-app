@@ -17,7 +17,7 @@ import rbcfinal from "../images/rbcfinal.png";
 
 import FaLock from 'react-icons/lib/fa/lock';
 
-import BottomNavTwo from './bottomNavTwo';
+import BottomNavFour from './bottomNavFour';
 
 class caseStudy4 extends Component {
   render() {
@@ -37,6 +37,7 @@ class caseStudy4 extends Component {
               My co-op term at RBC was my first co-op experience through the University of Waterloo’s Engineering program. During my term I was a UI/UX designer on a program team for an internal innovation program at the bank, called RBCx. I was working downtown Toronto at the RBC Waterpark location. Apart from all of the work experience and professional development I gained, it was also a big learning experience living together with one of my classmates in the city. I was very excited to
               be working in the heart of Toronto, while doing my passion as a job. This page talks about the RBCx program, how I contributed as a designer and a reflection on my term at the bank.
             </div>
+
         </div>
         </div>
 
@@ -174,7 +175,7 @@ class caseStudy4 extends Component {
 
               </div>
               </div>
-      <BottomNavTwo/>
+      <BottomNavFour/>
       <Footer />
       </div>
       </div>

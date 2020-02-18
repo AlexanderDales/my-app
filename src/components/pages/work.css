@@ -16,6 +16,7 @@
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   font-size: 75px;
+  margin-bottom: 1%;
 }
 
 #topDescription {
@@ -28,8 +29,8 @@
 
 #topDescText {
   border-bottom: solid 2px #30D27C;
-  padding-top: 5%;
-  padding-bottom: 3%;
+  padding-top: 6%;
+  padding-bottom: 5%;
 }
 
 .img-fluid {

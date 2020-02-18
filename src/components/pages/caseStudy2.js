@@ -7,138 +7,157 @@ import newnightflow1 from "../images/newnightflow1.png";
 import newnightflow2 from "../images/newnightflow2.png";
 import newnightflow21 from "../images/newnightflow2.1.png";
 import newnightflow3 from "../images/newnightflow3.png";
-import BottomNavTwo from './bottomNavTwo';
+import userInterviews1 from "../images/userInterviews1.png";
+import apps1 from "../images/apps1.png";
+import apps2 from "../images/apps2.png";
+import apps3 from "../images/apps3.png";
+import apps4 from "../images/apps4.png";
+import apps5 from "../images/apps5.png";
 
+import BottomNavTwo from './bottomNavTwo';
 class caseStudy2 extends Component {
   render() {
     return (
       <div>
       <Navbar />
-        <div className="wrap">
-        <div className="container-fluid">
-          <div className="container topDescText">
-            <div className="row" id="title" >
-            Connecting native health app during on-boarding
+      <div className="wrap">
+      <div className="container-fluid">
+        <div className="container topDescText">
+          <div className="row" id="title" >
+          Connecting an App or Device
+          </div>
+            <div className="row" id="subTitle">
+            Sprout Native Mobile Application
             </div>
-              <div className="row" id="subTitle">
-              Sprout Mobile Application
-              </div>
-              <div className="row" id="desc"> New Night is an Android application that helps users pick a venue for a night out in Toronto. The application allows users to select from different filtering preferences such as: the type of venue, the music played, the size of the venue, the dress code and the distance from their current location. The application uses Google’s Places API combined with a custom database to return a list of results based on the filters selected. Finally, the app let’s users click into different results in order to see more details about the venue, before choosing where they should spend their night out.
-              </div>
+            <div className="row" id="desc">The native Sprout mobile application allows users to connect their OS health app (Apple Health, Google Fit, Samsung Health) and their wearable devices (Fitbit, Garmin, Strava), so that they can more easily track activity and earn points.
+             Users are able to connect these external applications primarily through a section of on-boarding and once in the app through the dashboard.
+            </div>
+      </div>
+      </div>
+
+      <div className="container-fluid highlight">
+        <div className="container highlightContent">
+          <div id="problem"> My Role </div>
+          <div id="text">How can the ‘Daily summary’ aim to increase user engagement and return rate, through a more insightful representation of a user’s daily activity by displaying more relevant information about their daily activity?
+          </div>
+        </div>
+      </div>
+
+      <div className="container content">
+        <div id="roleHighlight">Data Collection</div>
+        <div id="text">
+          The first step I took while starting this process was to get more insights into how many users have already connected the OS health application to Sprout’s.
+          After data collection, I found that 64.2% of users had connected their OS health application to Sprout’s application. My re-design increased this percentage to 75%.
         </div>
         </div>
 
-        <div className="container content">
 
-          <div className="row top-photo">
-              <div class="col-lg-12">
-               <img src={newnightscreens} class="img-fluid"/>
-              </div>
-            </div>
-          <div className="container para">
-          <div id="role"> My Role </div>
-            <div id="text"> Throughout this project, I was in charge of creating all of the designs while considering user interaction. The app was created in collaboration with one of my classmates, who developed the app using Java. We completed the project during our previous co-op term, since we were eager to work on a personal project together that would allow us to develop our skills. For me this was different, since I followed Google Material Design for interaction and styling. This was the first time I experienced designing with these guidelines and it was something different compared to previous mobile and web projects I did. If you’re interested in seeing my classmate’s code, you can access the GitHub repository<a href="https://github.com/haydnwiese/New-Night" target="blank_" id="GitHub"> here.</a>
+          <div className="container-fluid highlight">
+          <div className="container highlightContent">
+            <div id="problem">Use Cases</div>
+            <div id="text">
+              Based on the users interviews I conducted, I was able to list the user assumptions:
+            <ol>
+              <br/><li>User connects to OS health app during the on-boarding process.</li>
+              <li>User skips on-boarding process (whole process or Connect Apps and devices section) and connects to OS health app through Me > Profile > Apps and devices</li>
+              <li>User skips on-boarding process (whole process or Connect Apps and devices section) and connects to OS health app through top left corner icon on dashboard (subject to change) </li>
+              <li>User skips on-boarding process (whole process or Connect Apps and devices section) and connects to OS health app through the card carousel on the ‘Home Page’</li>
+            </ol>
             </div>
           </div>
+          </div>
+
+          <div className="container-fluid" id="underHighlight">
+            <div className="container highlightContent">
+              <div id="roleHighlight">Old On-boarding flow</div>
+              <div id="text">
+
+              </div>
+              <div className="row">
+                  <div class="col-lg-12">
+                   <img src={apps1} class="img-fluid"/>
+                  </div>
+                  </div>
+            </div>
+          </div>
+
+          <div className="container-fluid" id="underHighlight">
+            <div className="container highlightContent">
+              <div id="roleHighlight">Old In-app screen</div>
+              <div id="text">
+
+              </div>
+              <div className="row">
+                  <div class="col-lg-12">
+                   <img src={apps2} class="img-fluid"/>
+                  </div>
+                  </div>
+            </div>
           </div>
 
           <div className="container-fluid highlight">
             <div className="container highlightContent">
-              <div id="problem"> The Problem & Idea </div>
-              <div id="text">The idea for this app came about when my friends and I faced the challenge of finding the perfect place to spend a Saturday night out in downtown Toronto. A Google search or blogTO article was just not cutting it, since we could never decide on a venue that matched all of our needs. This is when my classmate and I came to the realization that we could develop an app that would aim to solve this exact problem. However, we needed to break this problem down further to understand the reasons why we were encountering this problem.
-
+              <div id="problem">Problem Statement </div>
+              <div id="text">For what reasons are users not connecting the OS health app to the Sprout mobile application?
               </div>
             </div>
+          </div>
+
+          <div className="container-fluid">
+          <div className="container">
+            <div id="problem">User Assumptions</div>
+            <div id="text">
+              Based on the users interviews I conducted, I was able to list the user assumptions:
+            <ul>
+              <br/><li>Users do not understand the advantages of connecting the OS health app to the application</li>
+              <li>Users do not know what the OS health app does or what it is</li>
+              <li>The OS health app is currently is only shown as equally important as all other available apps and devices, when it should be a priority </li>
+              <li>Users are concerned about their privacy and what information is being shared with the application</li>
+            </ul>
+            </div>
+          </div>
           </div>
 
 
           <div className="container-fluid" id="underHighlight">
             <div className="container highlightContent">
-              <div id="roleHighlight">Pain Points </div>
-              <div id="text">
-              For this project, the pain points listed reflect the feelings of my friends and I after we spent plenty of time on Google trying to find where to go.
-
-              <ul>
-                <br/><li>It was difficult to list all of our venue preferences in a Google search </li>
-                <li>There were too many varied results with no clear suggestions from searches</li>
-                <li>Specific details such as venue size or dress code were not explicitly listed</li>
-              </ul>
+              <div id="roleHighlight"> Process </div>
+              <div id="step"> - Wireframing<br/></div>
+              <div id="step-description">From all of the user assumptions that I had gathered through discussions with the mobile product owner and another senior designer, I moved forward into creating the screen wireframes. Usually I will create very basic wireframes with text, however I skipped this step of the process for this feature, since I felt as though I already had a good idea for some of the changes I wanted to make to the existing process and it would have been unnecessary. Therefore, I went straight into creating view wireframes for the different use cases.
               </div>
-            </div>
-
-
-            <div className="container-fluid" id="underHighlight">
-              <div className="container highlightContent">
-                <div id="roleHighlight">Constraints</div>
-                <div id="text">
-                  There were two main constraints that I faced as a designer during this project:
-
-                  <ul>
-                  <br/><li>Interaction and styling had to follow Google Material Design</li>
-                  <li>Google's Places API only returned certain data about venues</li>
-                  </ul>
-                  The biggest constraint throughout this project was what was possible in terms of development. I had all of these ideas for the sort of details I wanted the design to show for venues, but these were limited by the API's capability.
-                  Moreover, there were certain features, transitions and designs that I wanted implemented, but they were too difficult to implement as my classmate was solo-developing the app. I quickly learned that I had to have more realistic design features
-                  that could be implemented based on the API and my classmate's ability.
-                </div>
+              <div id="step">i) On-boarding<br/></div>
+              <div id="step-description">While wireframing the on-boarding process, the main change that I wanted to make to this process was to add a dedicated screen during the process for the OS health application. The purpose behind this screen is to put more emphasis on prompting the user to connect the OS app, by giving it a dedicated view. In addition, this would allow me to add more information about the OS health application to the user, as to why they should connect this app. From this screen, the user can continue to see all of the available apps and devices, as shown in the flow below.
               </div>
-            </div>
-
-            <div className="container-fluid" id="underHighlight">
-              <div className="container highlightContent">
-                <div id="roleHighlight"> Process </div>
-                <div id="step"> 1. Initial User Flow<br/></div>
-                <div id="step-description"> The first step for me was to block out the general flow I had in mind for the application. I listed the general information/interactions that I had in mind for the different steps throughout
-                the user’s interaction with the app. I knew that I wanted a dedicated home screen, which then took the user through different steps of choosing their preferences and finally returning results based on the filters they just selected. </div>
-                <div className="row">
-                    <div class="col-lg-12">
-                     <img src={newnightflow1} class="img-fluid"/>
-                    </div>
-                </div>
-
-                <div id="step" className="step-nt"> 2. Wireframing<br/></div>
-                <div id="step-description">Once I had an idea of the different information I wanted to display, I built out wireframes. In the wireframes, I created specific screens for the venue type and music type filters, with the other filters combined into one screen.
-                As a user, I felt as though the venue type and the music type were the most important filters throughout the process, which was why I seperated them into individual screens.
-                </div>
-                <div className="row">
-                    <div class="col-lg-12">
-                     <img src={newnightflow2} class="img-fluid"/>
-                    </div>
-                </div>
-
-                <div id="step" className="step-nt"> 3. Reiterating<br/></div>
-                <div id="step-description">Since this project was collaborative, it was important as a designer to gain feedback from my classmate. After I had created the initial wireframes, he was able to point out some suggestions and set some constraints in
-                terms of what would be possible to develop. Based on his feedback I noted some of the changes to be made:
-                <ul>
-                <br/><li>Combine all of the filters into one page to simplify user flow, seperate screens is unnecessary</li>
-                <li>Remove the filter tags at the top of the results screen</li>
-                <li>A vertical list for the 'Top Results' would be easier to implement over the horizontal option</li>
-                <li>The 'Randomize location' button on the results page was not a prioritized feature for the inital stage of developing the app</li>
-                <li>In the next iteration I added a wireframe for the result details</li>
-                </ul>
-                </div>
-                <div className="row">
-                    <div class="col-lg-12">
-                     <img src={newnightflow21} class="img-fluid"/>
-                    </div>
-                </div>
-
-
-                <div id="step" className="step-nt"> 4. Final Mockups<br/></div>
-                <div id="step-description">The final mockups, as well as the different fidelity of wireframes, were all created using Sketch. Since the design followed Google Material Design, I was able to leverage the material design components file in order to
-                design the high fidelity mockups using the correct grid, font/icon sizes, colors, selection lists, images, etc. In addition, I created mockups that included all spacing measurements, icon/font sizes and design properties (not pictured).
-                </div>
-                <div className="row">
-                    <div class="col-lg-12">
-                     <img src={newnightflow3} class="img-fluid"/>
-                    </div>
-                </div>
+              <div className="row">
+                  <div class="col-lg-12">
+                   <img src={apps3} class="img-fluid"/>
+                  </div>
               </div>
+
+              <div id="step" className="step-nt">ii) Handling Permissions<br/></div>
+              <div id="step-description">While the user is connecting the app during on-boarding, the user has to allow the OS health app to connect to Sprout’s application. For this process, it is important to understand what process the user would go through if they were to ‘Accept’ or ‘Deny’
+              these permissions and what appears in the Sprout app after that decision has been made.
+              </div>
+              <div className="row">
+                  <div class="col-lg-12">
+                   <img src={apps4} class="img-fluid"/>
+                  </div>
+              </div>
+
+              <div id="step" className="step-nt">iii) In-app<br/></div>
+              <div id="step-description">The final wireframe I created was for the in-app section of connecting an app or device to the Sprout application. Again, there needed to be more emphasis on connecting the OS health app versus all of the other available apps or devices to connect.
+              </div>
+              <div className="row">
+                  <div class="col-lg-12">
+                   <img src={apps5} class="img-fluid"/>
+                  </div>
+              </div>
+
+
             </div>
-
-
           </div>
         </div>
+
       <BottomNavTwo />
       <Footer />
       </div>

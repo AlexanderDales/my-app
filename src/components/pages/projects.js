@@ -60,8 +60,25 @@ class Projects extends Component {
             <div class="col-lg-5 text-left my-auto">
             <div className="container rightSide">
              <span><div className="topText">Royal Bank of Canada</div></span>
-             <h4 class="study-header">Internal Innovation Program</h4>
-             <Link to="/caseStudy4" className="link">My co-op experience</Link>
+             <h4 class="study-header">Working as a UI/UX Designer</h4>
+             <Link to="/caseStudy4" className="link">My work</Link>
+             </div>
+          </div>
+        </div>
+        </div>
+
+        <div className="container featured">
+          <div className="row">
+
+            <div class="col-lg-7 my-auto p-0">
+             <img src={appsanddevices} class="img-fluid"/>
+            </div>
+
+            <div class="col-lg-5 text-left my-auto">
+            <div className="container rightSide">
+             <span><div className="topText">Product Designer at Sprout</div></span>
+             <h4 class="study-header">Connceting an App/Device</h4>
+             <Link to="/caseStudy2" className="link">View case study</Link>
              </div>
           </div>
         </div>
