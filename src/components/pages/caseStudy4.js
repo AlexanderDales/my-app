@@ -34,7 +34,7 @@ class caseStudy4 extends Component {
               My Co-op Experience
               </div>
               <div className="row" id="desc">
-              My co-op term at RBC was my first co-op experience through the University of Waterloo’s Engineering program. During my term I was a UI/UX designer on a program team for an internal innovation program at the bank, called RBCx. I was working downtown Toronto at the RBC Waterpark location. Apart from all of the work experience and professional development I gained, it was also a big learning experience living together with one of my classmates in the city. I was very excited to
+              My co-op term at RBC was my first co-op experience through the University of Waterloo’s Engineering program. During my term I was a UI/UX designer on a program team for an internal innovation program at the bank, called RBCx. I was working downtown Toronto at the RBC Waterpark location. Apart from all of the work experience and professional development I gained, it was also a big learning experience living with one of my classmates in the city. I was very excited to
               be working in the heart of Toronto, while doing my passion as a job. This page talks about the RBCx program, how I contributed as a designer and a reflection on my term at the bank.
             </div>
 
@@ -51,14 +51,14 @@ class caseStudy4 extends Component {
 
           <div className="container para">
           <div id="role">What is RBCx?</div>
-            <div id="text">The RBCx Program is an intrapreneuship program that brings together RBC employees from across the organization to be placed into 7 teams that each had to solve a sponsored challenge given by the different departments in the bank. These challenges were real internal issues that these lines of business were facing and wanting to solve. The program brings in around 30 employees from across the bank, who apply for the program. They are then placed into teams, that undergo a 9-week process of solving their business challenge. At the end of the 9 weeks, all the teams present their solutions at the RBCxpo, in the auditorium at RBC Waterpark Place, downtown Toronto. This event brought together over 250 guests, including department executives.</div>
+            <div id="text">The RBCx Program is an intrapreneuship program that brings together RBC employees from across the organization to be placed into 7 teams that each had to solve a sponsored challenge given by the different departments in the bank. The challenges are real internal issues that the lines of businesses are facing. The program brings in around 30 employees from across the bank, who apply for the program. They are then placed into teams, that undergo a 9-week process of solving their business challenge. At the end of the 9 weeks, all the teams present their solutions at the RBCxpo, in the auditorium at RBC Waterpark Place. This event brought together over 250 guests, including department executives.</div>
           </div>
           </div>
 
           <div className="container-fluid highlight">
             <div className="container highlightContent">
               <div id="problem"> My Role </div>
-              <div id="text">As one of the UI/UX designers on the program team for RBCx, I took on many different responsibilities as a designer. I was in charge of designing the branding associated with the RBCxpo and RBCx brand for the current season, as well as redesigning the internal RBCx webpage. The most interesting part of my job was when I got to work with three different RBCx participant groups to create interactive high-fidelity prototypes of their business solution products. Throughout this process, I designed different web and a mobile designs in Sketch and used Figma to demonstrate interactive capabilities. I was also exposed to developing in HTML and CSS for the first time while implementing the new internal RBCx webpage.
+              <div id="text">As one of the UI/UX designers on the program team for RBCx, I took on many different responsibilities. I was in charge of designing the branding associated with the RBCxpo and RBCx brand for the current season, as well as redesigning the internal RBCx webpage. The most interesting part of my job was when I got to work with three different RBCx participant groups to create interactive high-fidelity prototypes of their business solution products. Throughout this process, I designed different web and a mobile designs in Sketch and used Figma to demonstrate interactive capabilities. I was also exposed to developing in HTML and CSS for the first time while implementing the new internal RBCx webpage.
               </div>
             </div>
           </div>
@@ -85,8 +85,8 @@ class caseStudy4 extends Component {
               <div className="container highlightContent">
                 <div id="roleHighlight">RBCx High-Fidelity Prototyping</div>
                 <div id="text">
-                  Towards week 6 of the 9-week program, I started to work more closely with the RBCx teams to design prototypes based on the product they had in mind, which the goal of solving the idea that they had came up with.
-                  Due to confidential reasons, I am only allowed to share some of the screens I designed for the prototypes and I cannot explicity state what internal problems these products were for. If you are interested in viewing the interaction prototypes in Figma, please contact me.
+                  Towards week 6 of the 9-week program, I started to work more closely with the RBCx teams to design high-fidelity prototypes that would bring their solutions to fuition.
+                  Due to confidential reasons, I am only allowed to share some of the screens I designed for the prototypes and I can only elaborate on some of the product details. If you are interested in viewing the interaction prototypes in Figma, please contact me.
                 </div>
               </div>
             </div>

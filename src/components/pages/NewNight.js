@@ -6,10 +6,11 @@ import newnightscreens from "../images/newnightscreens.png";
 import newnightflow1 from "../images/newnightflow1.png";
 import newnightflow2 from "../images/newnightflow2.png";
 import newnightflow21 from "../images/newnightflow2.1.png";
-import newnightflow3 from "../images/newnightflow3.png";
+import newnightflow3 from "../images/newnightflow.png";
+import material from "../images/material.png";
 import BottomNav from './bottomNav';
 
-class caseStudy1 extends Component {
+class NewNight extends Component {
   render() {
     return (
       <div>
@@ -122,8 +123,18 @@ class caseStudy1 extends Component {
                     </div>
                 </div>
 
+                <div id="step" className="step-nt"> 4. Google Material Design Components<br/></div>
+                <div id="step-description">I followed Google Material Design to create the user interface for this project. This alligned with the fact that the app was for Android and it allowed me to gain more experience designing for this OS. Since it was designed following these guidelines, it also made it
+                easier for my classmate to develop the UI in java, since the code for some of the mobile components are readily available online.
+                </div>
+                <div className="row">
+                    <div class="col-lg-12">
+                     <img src={material} class="img-fluid"/>
+                    </div>
+                </div>
 
-                <div id="step" className="step-nt"> 4. Final Mockups<br/></div>
+
+                <div id="step" className="step-nt"> 5. Final Mockups<br/></div>
                 <div id="step-description">The final mockups, as well as the different fidelity of wireframes, were all created using Sketch. Since the design followed Google Material Design, I was able to leverage the material design components file in order to
                 design the high fidelity mockups using the correct grid, font/icon sizes, colors, selection lists, images, etc. In addition, I created mockups that included all spacing measurements, icon/font sizes and design properties (not pictured) that were handed off to my classmate for developing.
                 </div>
@@ -150,4 +161,4 @@ class caseStudy1 extends Component {
   }
 }
 
-export default caseStudy1;
+export default NewNight;

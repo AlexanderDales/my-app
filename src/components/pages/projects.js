@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './projects.css';
-import caseStudy1 from './caseStudy1.js';
+import NewNight from './NewNight.js';
 import caseStudy2 from './caseStudy2.js';
 import dailysum from '../images/dailysum.png';
 import appsanddevices from "../images/appsanddevices.png";
@@ -27,7 +27,7 @@ class Projects extends Component {
             <div className="container rightSide">
              <span><div className="topText">Android Application</div></span>
              <h4 class="study-header">New Night</h4>
-             <Link to="/caseStudy1" className="link">View project</Link>
+             <Link to="/NewNight" className="link">View project</Link>
              </div>
           </div>
         </div>

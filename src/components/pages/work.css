@@ -12,6 +12,26 @@
   padding-left: 0px;
 }
 
+.rowno {
+  padding-left: -15px;
+  padding-right: -15px;
+}
+
+.importantText {
+
+
+}
+
+.importantText:hover {
+
+
+}
+
+#topText {
+  white-space: nowrap;
+}
+
+
 #topDescTitle {
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
@@ -88,7 +108,6 @@ div.container.secondNav {
   font-size: 55px;
   margin-bottom: 1%;
 }
-
 
 #topDescription {
   margin-top: 3%;
