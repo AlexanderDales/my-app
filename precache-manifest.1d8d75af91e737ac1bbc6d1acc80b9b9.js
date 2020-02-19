@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dab6a42604547f0ff6fdf349ec33507c",
+    "revision": "0204b11ea43350e43c2dcd59f36d7d34",
     "url": "/index.html"
   },
   {
-    "revision": "d5bf1e0b6b6e4b7c0262",
+    "revision": "666f971e071d9e1a2467",
     "url": "/static/css/2.7abef457.chunk.css"
   },
   {
-    "revision": "4ab07265d5ca9430ddd0",
-    "url": "/static/css/main.1490188c.chunk.css"
+    "revision": "4ecf5cf7ed692a84d557",
+    "url": "/static/css/main.3a2ab7f4.chunk.css"
   },
   {
-    "revision": "d5bf1e0b6b6e4b7c0262",
-    "url": "/static/js/2.6f005147.chunk.js"
+    "revision": "666f971e071d9e1a2467",
+    "url": "/static/js/2.fdc63d28.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/static/js/2.6f005147.chunk.js.LICENSE"
+    "url": "/static/js/2.fdc63d28.chunk.js.LICENSE"
   },
   {
-    "revision": "4ab07265d5ca9430ddd0",
-    "url": "/static/js/main.0f60a63c.chunk.js"
+    "revision": "4ecf5cf7ed692a84d557",
+    "url": "/static/js/main.5ecd5e66.chunk.js"
   },
   {
     "revision": "19133a5d6c7be98533aa",
@@ -160,8 +160,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin.3e2cd069.svg"
   },
   {
+    "revision": "bbc7f887d8aef3aa68527bda8ac57658",
+    "url": "/static/media/linkedinGreen.bbc7f887.svg"
+  },
+  {
     "revision": "534a4aac2a419cfb529cdc76069649c8",
     "url": "/static/media/m6.534a4aac.png"
+  },
+  {
+    "revision": "4752ce98a1777a1892fa66efbc1a2f13",
+    "url": "/static/media/material.4752ce98.png"
   },
   {
     "revision": "4bd6af1d65ee606d77ab2b5e1b19afb7",
@@ -170,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "176abdc135454caaf15ad35e3e238ff3",
     "url": "/static/media/newnightcover.176abdc1.png"
+  },
+  {
+    "revision": "8bd69fc8f0995f6acb7bab1e9501e3f9",
+    "url": "/static/media/newnightflow.8bd69fc8.png"
   },
   {
     "revision": "4535b83601c5e7bd0cda0053d319ed28",
