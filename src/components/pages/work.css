@@ -7,6 +7,11 @@
   padding-top: 8%;
 }
 
+#fact {
+  font-style: italic;
+
+}
+
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
@@ -16,21 +21,6 @@
   padding-left: -15px;
   padding-right: -15px;
 }
-
-.importantText {
-
-
-}
-
-.importantText:hover {
-
-
-}
-
-#topText {
-  white-space: nowrap;
-}
-
 
 #topDescTitle {
   font-family: 'DM Sans', sans-serif;
@@ -79,10 +69,11 @@
 
 #secondNavTitle:hover {
   cursor: pointer;
+  color: #30D27C;
 }
 
 .nav-title-selected {
-  color: black;
+  color: #30D27C;;
 }
 
 .secondNav {
@@ -93,7 +84,7 @@ div.container.secondNav {
   padding-left: 0px;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 1024px) {
 
 .wrapper{
   margin-left: 10%;
@@ -133,5 +124,14 @@ div.container.secondNav {
   margin-right: 10px;
   margin-left: 10px;
 }
+
+
+
+
+
+
+
+
+
 
 }

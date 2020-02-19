@@ -39,3 +39,39 @@
 
 
 }
+
+@media (min-width: 375px) and (max-width: 1024px) {
+
+.rightSide {
+    margin-left: 1%;
+    padding: 0px;
+}
+
+.topText {
+  margin-top: 7%;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+
+}
+
+.study-header {
+  margin-top: 1%;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+
+}
+
+a.link {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #30D27C;
+  margin-bottom: 4%;
+}
+
+
+
+
+}

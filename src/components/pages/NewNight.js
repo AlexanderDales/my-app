@@ -14,8 +14,9 @@ class NewNight extends Component {
   render() {
     return (
       <div>
+
       <Navbar />
-        <div className="wrap">
+<div className="wrap">
         <div className="container-fluid">
           <div className="container topDescText">
             <div className="row" id="title" >

@@ -27,8 +27,9 @@ class Work extends Component {
 
     return (
     <div>
-    <div className="wrapper">
+
     <Navbar />
+    <div className="wrapper">
       <div className="container-fluid">
         <div className="container-fluid" id="topDescription">
           <div className="container" id="topDescText">
@@ -40,7 +41,7 @@ class Work extends Component {
               prior to that I was a UI/UX designer at the Royal Bank of Canada on an internal innovation team. I have been running my own freelance design business, focused on logo design, branding and typograhy since the start of highschool. This
               has given me the opportunity to work with hundreds of clients from around the world, while learning how to self-manage commissions and build loyal customer relationships. Aside from design, I exercise my creativity through photography and fashion, two of my favourite hobbies.
               <br/><br/>
-              Fun fact: I am bilingual in French (B2) and English (Native)
+              <span id="fact">Fun fact - I am bilingual in French (B2) and English (Native)</span>
               </div>
         </div>
 
