@@ -17,13 +17,13 @@ import apps6 from "../images/apps6.png";
 import apps7 from "../images/apps7.png";
 import apps8 from "../images/apps8.png";
 
-
-
 import BottomNavTwo from './bottomNavTwo';
+
 class caseStudy2 extends Component {
   render() {
     return (
       <div>
+
       <Navbar />
       <div className="wrap">
       <div className="container-fluid">

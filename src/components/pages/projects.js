@@ -27,7 +27,7 @@ class Projects extends Component {
             <div className="container rightSide">
              <span><div className="topText">Android Application</div></span>
              <h4 class="study-header">New Night</h4>
-             <Link to="/NewNight" className="link">View project</Link>
+             <Link to="/NewNight" className="link">View Project</Link>
              </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ class Projects extends Component {
             <div className="container rightSide">
              <span><div className="topText">Product Designer at Sprout</div></span>
              <h4 class="study-header">Daily Activity</h4>
-             <Link to="/caseStudy3" className="link">View case study</Link>
+             <Link to="/caseStudy3" className="link" id="link">View Project</Link>
              </div>
           </div>
         </div>
@@ -60,8 +60,8 @@ class Projects extends Component {
             <div class="col-lg-5 text-left my-auto">
             <div className="container rightSide">
              <span><div className="topText">Royal Bank of Canada</div></span>
-             <h4 class="study-header">Working as a UI/UX Designer</h4>
-             <Link to="/caseStudy4" className="link">My work</Link>
+             <h4 class="study-header">UI/UX Design Co-op</h4>
+             <Link to="/caseStudy4" className="link" id="link">My Work</Link>
              </div>
           </div>
         </div>
@@ -77,21 +77,12 @@ class Projects extends Component {
             <div class="col-lg-5 text-left my-auto">
             <div className="container rightSide">
              <span><div className="topText">Product Designer at Sprout</div></span>
-             <h4 class="study-header">Connceting an App/Device</h4>
-             <Link to="/caseStudy2" className="link">View case study</Link>
+             <h4 class="study-header">Connecting an App/Device</h4>
+             <Link to="/caseStudy2" className="link" id="link">View Project</Link>
              </div>
           </div>
         </div>
         </div>
-
-
-
-
-
-
-
-
-
 
     </div>
 
