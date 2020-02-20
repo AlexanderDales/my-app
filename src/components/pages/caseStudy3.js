@@ -64,7 +64,7 @@ class caseStudy3 extends Component {
           <div className="container-fluid highlight">
             <div className="container highlightContent">
               <div id="problem"> Problem Statement </div>
-              <div id="text">How can the ‘Daily summary’ aim to increase user engagement and return rate, through a more insightful representation of a user’s daily activity by displaying more relevant information about their daily activity?
+              <div id="text">How can the ‘Daily summary’ aim to increase user engagement and return rate, through a more insightful representation of a user’s daily activity?
               </div>
             </div>
           </div>
