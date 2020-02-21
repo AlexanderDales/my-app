@@ -33,43 +33,43 @@ class Photography extends Component {
       <div className="row photoText justify-content-centre">New York City, Sep. 2019 - Portra 400</div>
 
       <div class="row">
-      <div class="col-sm">
+      <div class="col-md">
         <img src={nine} class="img-fluid"/>
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <img src={ten} class="img-fluid"/>
       </div>
-      <div class="col-sm">
+      <div class="col-md">
         <img src={eleven} class="img-fluid"/>
       </div>
       </div>
 
         <div class="row">
-          <div class="col-sm">
+          <div class="col-md">
             <img src={one} class="img-fluid"/>
           </div>
           </div>
 
           <div class="row">
-          <div class="col-sm">
+          <div class="col-md">
             <img src={twelve} class="img-fluid"/>
           </div>
-          <div class="col-sm">
+          <div class="col-md">
             <img src={thirteen} class="img-fluid"/>
           </div>
         </div>
 
         <div class="row">
-        <div class="col-sm">
+        <div class="col-md">
           <img src={fifteen} class="img-fluid"/>
         </div>
-        <div class="col-sm">
+        <div class="col-md">
           <img src={sixteen} class="img-fluid"/>
         </div>
       </div>
 
           <div class="row">
-          <div class="col-sm">
+          <div class="col-md">
             <img src={five} class="img-fluid"/>
           </div>
         </div>
@@ -78,34 +78,34 @@ class Photography extends Component {
         <div className="row photoText justify-content-centre">London, England, Dec. 2018 - Canon 6D (50mm)</div>
 
         <div class="row">
-          <div class="col-sm">
+          <div class="col-md">
             <img src={eighteen} class="img-fluid"/>
           </div>
           </div>
 
           <div class="row">
-          <div class="col-sm">
+          <div class="col-md">
             <img src={nineteen} class="img-fluid"/>
           </div>
-          <div class="col-sm">
+          <div class="col-md">
             <img src={twenty} class="img-fluid"/>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-sm">
+          <div class="col-md">
             <img src={tone} class="img-fluid"/>
           </div>
           </div>
 
           <div class="row">
-          <div class="col-sm">
+          <div class="col-md">
             <img src={ttwo} class="img-fluid"/>
           </div>
-          <div class="col-sm">
+          <div class="col-md">
             <img src={tthree} class="img-fluid"/>
           </div>
-          <div class="col-sm">
+          <div class="col-md">
             <img src={tfour} class="img-fluid"/>
           </div>
         </div>
