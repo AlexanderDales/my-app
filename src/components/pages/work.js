@@ -47,8 +47,8 @@ class Work extends Component {
 
         <div className="container">
           <div class="row secondNav">
-            <ul class="list-inline">
-              <li class={this.state.classNames.projects}ß
+            <div class="list-inline text-center ">
+              <div class={this.state.classNames.projects}ß
                   id="secondNavTitle"
                   onClick={() => this.setState({
                       selectedSection: 'projects',
@@ -57,8 +57,8 @@ class Work extends Component {
                         freelance: 'list-inline-item',
                         photography: 'list-inline-item'
                       }
-                    })}>Product</li>
-              <li class={this.state.classNames.freelance}
+                    })}>Product</div>
+              <div class={this.state.classNames.freelance}
                   id="secondNavTitle"
                   onClick={() => this.setState({
                       selectedSection: 'freelance',
@@ -67,8 +67,8 @@ class Work extends Component {
                         freelance: 'list-inline-item nav-title-selected',
                         photography: 'list-inline-item'
                       }
-                    })}>Freelance</li>
-              <li class={this.state.classNames.photography}
+                    })}>Freelance</div>
+              <div class={this.state.classNames.photography}
                   id="secondNavTitle"
                   onClick={() => this.setState({
                       selectedSection: 'photography',
@@ -77,8 +77,8 @@ class Work extends Component {
                         freelance: 'list-inline-item',
                         photography: 'list-inline-item nav-title-selected'
                       }
-                    })}>Photography</li>
-              </ul>
+                    })}>Photography</div>
+              </div>
           </div>
         </div>
 

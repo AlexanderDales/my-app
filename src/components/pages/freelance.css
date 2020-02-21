@@ -1,5 +1,5 @@
-.col-sm {
-  padding:  20px;
+.col-md {
+  padding:  25px;
 }
 
 .logos {
@@ -14,17 +14,55 @@
   display: inline-block;
 }
 
-.dribbble {
-  border-style: solid;
-  border-color: white;
-  border-width: 12px;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.07);
-}
+
 
 .dribbbleTextBox {
   text-align: center;
 }
 
+#commission {
+  margin-top: 2%;
+  margin-bottom: 15%;
+  opacity: 50%;
+}
+
 #onlyDribbble {
   color: #30D27C;
+}
+
+#roleTop {
+  color: #1D1D1C;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+#stepTop {
+  padding-top: 4%;
+  padding-bottom: 3%;
+  color: #1D1D1C;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#linksBaby {
+  color: #30D27C;
+}
+
+.oneofThree {
+  color: #30D27C;
+  margin-top: 10%;
+  margin-bottom: 20%;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+
+}
+
+.banner {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
