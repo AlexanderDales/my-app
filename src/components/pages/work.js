@@ -37,7 +37,7 @@ class Work extends Component {
             I'm Alex
             </div>
               <div className="row">
-             Currently a Product Design Intern at Shopify. I will be entering my 2B term of studyins Systems Design Engineering at the University of Waterloo this fall.
+                Currently a Product Design Intern at Shopify. I will be entering my 2B term of studying Systems Design Engineering at the University of Waterloo this fall.
               <br/><br/>
               </div>
         </div>
